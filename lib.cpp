@@ -2,17 +2,14 @@
 #include "lib.h"
 using namespace std;
 
-bool riconoscere(char o){
-    if (o=='a' || o=='b'|| o=='c'|| o=='d'|| o=='e'|| o=='f'|| o=='g'|| o=='h'|| o=='i'|| o=='j'|| o=='k'|| o=='l'|| o=='m'|| o=='n'|| o=='o'|| o=='p'|| o=='q'|| o=='r'|| o=='s'|| o=='t'|| o=='u'|| o=='v'|| o=='w'|| o=='x'|| o=='y'|| o=='z'){
+bool riconoscere(char p){
+    if (p=='a' || p=='b'|| p=='c'|| p=='d'|| p=='e'|| p=='f'|| p=='g'|| p=='h'|| p=='i'|| p=='j'|| p=='k'|| p=='l'|| p=='m'|| p=='n'|| p=='o'|| p=='p'|| p=='q'|| p=='r'|| p=='s'|| p=='t'|| p=='u'|| p=='v'|| p=='w'|| p=='x'|| p=='y'|| p=='z'){
         return 0;
     }
-    if (o=='A' || o=='B'|| o=='C'|| o=='D'|| o=='E'|| o=='F'|| o=='G'|| o=='H'|| o=='I'|| o=='J'|| o=='K'|| o=='L'|| o=='M'|| o=='N'|| o=='O'|| o=='P'|| o=='Q'|| o=='R'|| o=='S'|| o=='T'|| o=='U'|| o=='V'|| o=='W'|| o=='X'|| o=='Y'|| o=='Z'){
+    if (p=='A' || p=='B'|| p=='C'|| p=='D'|| p=='E'|| p=='F'|| p=='G'|| p=='H'|| p=='I'|| p=='J'|| p=='K'|| p=='L'|| p=='M'|| p=='N'|| p=='O'|| p=='P'|| p=='Q'|| p=='R'|| p=='S'|| p=='T'|| p=='U'|| p=='V'|| p=='W'|| p=='X'|| p=='Y'|| p=='Z'){
         return 0;
     }
-
-
-    else{
+    else {
         return 1;
     }
-
 }
