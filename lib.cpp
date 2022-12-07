@@ -10,7 +10,9 @@ bool riconoscere(char o){
         return 0;
     }
 
-    else {
+
+    else{
         return 1;
     }
+
 }
